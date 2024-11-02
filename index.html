@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel El Bahiano</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero-text">
+            <h1>HOTEL</h1>
+            <h2>El Bahiano</h2>
+        </div>
+        <p class="tagline">Un paraíso en la ciudad Correntina</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#location">Ubicación</a></li>
+                <li><a href="#rooms">Habitaciones</a></li>
+                <li><a href="#facilities">Instalaciones</a></li>
+                <li><a href="#reviews">Opiniones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about" class="section-box sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="content-wrapper">
+            <div class="info-box">
+                <p>Bienvenido al Hotel El Bahiano, tu hogar lejos de casa en un entorno paradisíaco. Ofrecemos
+                    habitaciones cómodas con vistas espectaculares, servicio de primera clase y una variedad de
+                    actividades para toda la familia.</p>
+            </div>
+            <img src="hotel.jpg" alt="Hotel El Bahiano">
+        </div>
+    </section>
+    <section id="location" class="section-box ubicacion">
+        <h2>Ubicación</h2>
+        <div class="content-wrapper">
+            <img src="location.jpg" alt="Ubicación del hotel">
+            <div class="info-box">
+                <p>Estamos ubicados en Los Aromitos 20344, Esquina, Corrientes, Argentina, cerca del centro y de áreas
+                    del puerto costanera. Un lugar perfecto para relajarse y disfrutar de la naturaleza. La región es
+                    conocida por sus paisajes pintorescos y la hospitalidad de su gente.</p>
+            </div>
+        </div>
+    </section>
+    <section id="rooms" class="section-box centered-section">
+        <h2>Habitaciones</h2>
+        <div class="content-wrapper">
+            <p>Contamos con 50 habitaciones disponibles, distribuidas en:</p>
+            <ul>
+                <li><strong>Habitaciones estándar:</strong> Cómodas y bien equipadas, perfectas para estancias cortas.
+                    <strong>Tarifa:</strong> $100 por noche. Incsluyen WiFi y desayuno.
+                </li>
+                <li><strong>Habitaciones deluxe:</strong> Más espacio y mejores vistas, ideal para mayor comodidad.
+                    <strong>Tarifa:</strong> $150 por noche. Incluyen WiFi y desayuno.
+                </li>
+                <li><strong>Suites:</strong> Lujo y exclusividad, con sala de estar y servicios premium.
+                    <strong>Tarifa:</strong> $250 por noche. Incluyen WiFi y desayuno.
+                </li>
+            </ul>
+            <img src="rooms.jpg" alt="Habitaciones del hotel">
+        </div>
+
+        <div class="reservation">
+            <h3 id="titulocenter">Selecciona fechas para encontrar los mejores precios para tu viaje</h3>
+            
+            <div class="container">
+                <input type="date" id="start-date" name="start-date">
+                <input type="date" id="end-date" name="end-date">
+            </div>
+            <div class="guests">
+                <label for="rooms">Habitaciones:</label>
+                <input type="number" id="rooms" name="rooms" min="1" max="10">
+                <label for="guests">Personas por habitación:</label>
+                <input type="number" id="guests" name="guests" min="1" max="4">
+            </div>
+        </div>
+    </section>
+    <section id="facilities" class="section-box">
+        <h2>Instalaciones</h2>
+        <ul class="facilities-list">
+            <li>Piletas</li>
+            <li>Estacionamiento</li>
+            <li>Quincho</li>
+            <li>Bar</li>
+            <li>Restaurante</li>
+            <li>WiFi gratis</li>
+            <li>Desayuno</li>
+            <li>Área de fumadores</li>
+            <li>Conserje</li>
+            <li>Aire acondicionado</li>
+            <li>Servicio a la habitación</li>
+            <li>Baño privado</li>
+        </ul>
+    </section>
+    <section id="reviews" class="section-box">
+        <h2>Opiniones</h2>
+        <p>Somos un hotel de 4 estrellas con una excelente relación precio-calidad. Nuestros clientes valoran el
+            servicio, la limpieza, la atención y la ubicación.</p>
+        <ul class="reviews-list">
+            <li>"El mejor hotel en el que me he hospedado. Excelente servicio y ubicación." - Juan P.</li>
+            <li>"Muy buena relación precio-calidad. El personal es muy amable." - María G.</li>
+            <li>"Habitaciones cómodas y limpias. ¡Volveré seguro!" - Carlos R.</li>
+        </ul>
+    </section>
+    <section id="contact" class="section-box centered-section">
+        <h2>Contacto</h2>
+        <p>Para reservas y más información, contáctanos en info@elbahiano.com o llama al +54 3777 123456.</p>
+        <p>También puedes seguirnos en nuestras redes sociales para estar al tanto de las últimas novedades y ofertas
+            especiales.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Hotel El Bahiano. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
